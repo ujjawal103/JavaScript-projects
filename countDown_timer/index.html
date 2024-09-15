@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="newContainer">
+        <label for="finalDate">Enter Last Date.....</label>
+        <div class="input">
+            <div class="extra">
+                <input type="date" id="finalDate">
+                <input type="time" id="finalTime">
+            </div>
+            <button type="submit" id="submit"> SUBMIT </button>
+        </div>
+       
+    </div>
+    
+    <div class="container">
+        <h1 id="count">CountDown Timer</h1>
+        <div class="countdown">
+            <div class="boxes">
+                <span class=" days">00</span>
+                <span>Days</span>
+            </div>
+            <div class="boxes ">
+                <span class="hours">00</span>
+                <span>Hour's</span>
+            </div>
+            <div class="boxes">
+                <span class=" minutes">00</span>
+                <span>Minutes</span>
+            </div>
+            <div class="boxes ">
+                <span class="seconds">00</span>
+                <span>Seconds</span>
+            </div>
+        </div>
+       <h1 id="progress">Progress</h1>
+       <div class="progress-container">
+        <div class="progress-bar"></div>
+       </div>
+
+
+    </div>
+
+    <button id="reset" type="reset">Set A new Timer</button>
+    <script src="app.js"></script>
+</body>
+</html>
