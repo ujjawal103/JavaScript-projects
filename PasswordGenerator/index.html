@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love-Password</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Random Strong Password Generator</h2>
+    <div class="love">
+        <input type="text" placeholder="Your Name..." id="you">
+
+            <div class="pyar"><i class="ri-heart-pulse-fill"></i></div>
+        <input type="text" placeholder=" Crush Name..." id="crush">
+    </div>
+<div class="length">
+    <label for="length">Password Length :-</label>
+    <input type="number"   style="display: block;;" id="length"  min="8" max="15" value="8"  >
+</div>
+   
+    
+    <button type="submit" id="generate" >Generate Password</button>
+    <div id="password" class="hide">
+       <img src="heart2-removebg-preview.png" alt="" height="250px" width="250px" >
+       <h3 class="pass">Password</h3>
+    </div>
+    <button id="regenerate" class="hide">Generate A new Password</button>
+  </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

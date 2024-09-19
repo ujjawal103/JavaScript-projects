@@ -1,0 +1,146 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+   background-color: rgb(134, 61, 123);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container{
+   background-color:  rgb(214, 13, 140);
+   border: 2px solid brown;
+   line-height: 3rem;
+   padding: 20px;
+   border-radius: 20px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   
+}
+.love{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+button{
+   display: block;
+}
+input{
+   padding: 10px;
+   background-color:rgb(175, 81, 141) ;
+   border: 2px solid rgb(133, 79, 183);
+   box-shadow: black;
+   margin: 20px;
+   color: rgb(21, 211, 192);
+   font-size: larger;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: oblique;
+   
+}
+#you{
+   border-bottom-right-radius: 20px;
+}
+#crush{
+   border-bottom-left-radius: 20px;
+}
+#length{
+   border: 2px solid rgb(167, 11, 235);
+   background-color:rgb(159, 136, 195) ;
+   color: rgb(255, 255, 255);
+   padding: 10px;
+   /* border-top-left-radius: 20px;
+   border-top-right-radius: 20px; */
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.length{
+   display: flex;
+   align-items: center;
+}
+::placeholder{
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: oblique;
+}
+
+button{
+   padding: 20px;
+   border-radius: 10px;
+   border: 2px solid brown;
+   color: white;
+   background-color: rgb(67, 110, 110);
+   cursor: pointer;
+}
+
+
+#regenerate{
+   margin: 0%;
+   /* background-color: rgb(41, 42, 37); */
+   padding: 10px;
+   position: relative;
+   left: 190px;
+}
+
+#password{
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: oblique;
+   color: darkmagenta;
+   position: relative;
+}
+
+#password img{
+   z-index: 1;
+  
+   text-shadow: aqua;
+}
+h3{
+   padding: 5px;
+   position: absolute;
+   top: 33px;
+   left: 43px;
+   display: block;
+   width: 170px;
+   height: 170px;
+   /* background-color: aqua; */
+
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-size: 1rem;
+
+   overflow-wrap: normal;
+
+   color: aqua;
+
+   z-index: 2;
+
+   cursor: pointer;
+}
+
+i{
+   font-size: 1.8rem;
+   /* color: greenyellow; */
+}
+
+.hide{
+   display: none;
+}
+
+button:hover{
+   scale: 1.1;
+}
