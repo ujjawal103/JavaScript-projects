@@ -1,0 +1,82 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100vh;
+    width:100vw;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(138, 195, 169);
+}
+.container{
+     width: 80%;
+     height: 80%;
+     background-color: white;
+     color: white;
+
+     border-radius: 30px;
+     overflow: hidden;
+
+    
+
+}
+.scoreCard{
+   background-color:rgb(21, 113, 72) ;
+   width: 100%;
+   padding-top: 8px;
+   padding-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 9rem;
+   flex-wrap: wrap;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.info{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 10px;
+}
+
+.info h2{
+   padding: 3px 10px;
+   background-color: white;
+   color: black;
+   border-radius: 20px;
+}
+.box{
+   /* flex: 1; */
+   padding: 20px;
+   display: flex;
+   gap: 10px;
+   margin-bottom: 20px;
+   flex-wrap: wrap;
+   /* height: calc(100%-200px);
+   width: calc(100%-200px); */
+}
+.bubble{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   gap: 10px;
+   background-color: rgb(17, 144, 87);
+   /* font-size: small; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   cursor: pointer;
+   
+}
+.bubble:hover{
+   background-color: rgb(23, 57, 42);
+   border: 3px solid rgb(146, 66, 66);
+   color: white;
+}
